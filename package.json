@@ -1,0 +1,17 @@
+{
+  "name": "hivecloak",
+  "version": "1.0.0",
+  "description": "Agent stealth service — proxy identity, cloaking, pathfinding through hostile territory",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["hive-civilization", "agent-stealth", "proxy-identity", "cloaking"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
